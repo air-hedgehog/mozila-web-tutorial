@@ -1,3 +1,36 @@
-p {
-  color: red;
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #00539F /*blue*/
+}
+
+body {
+  width: 600px;
+  margin: 15% auto; /*vertical | horizontal*/
+  background-color: #FF9500; /*orange*/
+  padding: 0 20px 20px 20px; /*top | right | bottom | left*/
+  border: 20px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+/*It's okay to create multiple selectors for one element type*/
+h1 {
+  margin: 0;
+  padding: 20px 0; /*vertical | horizontal*/
+  color: #00539F;
+  text-shadow: 3px 3px 1px black; /* horizontal offset | vertical offset | blur radius | color */
+}
+
+img {
+  display: block; /* we have to give the image block-level behavior*/
+  margin: 0 auto;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px
 }
